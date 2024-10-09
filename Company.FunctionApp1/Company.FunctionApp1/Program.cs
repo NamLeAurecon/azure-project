@@ -8,7 +8,6 @@ var host = new HostBuilder()
     .ConfigureFunctionsWorkerDefaults(builder =>
     {
         builder.UseMiddleware<ExceptionMiddleware>();
-        new DurableTaskExtensionStartup().Configure(builder);
     })
     .ConfigureServices(services => {
         services.AddApplicationInsightsTelemetryWorkerService();

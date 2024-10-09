@@ -1,8 +1,7 @@
-﻿using System;
-using Microsoft.Azure.Functions.Worker;
+﻿using Microsoft.Azure.Functions.Worker;
 using Microsoft.Extensions.Logging;
 
-namespace Company.FunctionApp1;
+namespace Company.FunctionApp1.TimerTrigger;
 
 public class TimerTrigger1(ILoggerFactory loggerFactory)
 {

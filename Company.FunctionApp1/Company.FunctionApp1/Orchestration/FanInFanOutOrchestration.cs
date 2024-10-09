@@ -1,7 +1,7 @@
 ﻿using Microsoft.Azure.Functions.Worker;
 using Microsoft.DurableTask;
 
-namespace Company.FunctionApp1.HttpTrigger.Orchestration;
+namespace Company.FunctionApp1.Orchestration;
 
 public static class FanInFanOutOrchestration
 {
